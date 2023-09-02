@@ -1,28 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/"
-    },
-    {
-      "source": "/about",
-      "destination": "/"
-    },
-    {
-      "source": "/products",
-      "destination": "/"
-    },
-    {
-      "source": "/services",
-      "destination": "/"
-    },
-    {
-      "source": "/article",
-      "destination": "/"
-    },
-    {
-      "source": "/contact",
-      "destination": "/"
-    }
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
