@@ -1,28 +1,28 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/"
+      "source": "/",
+      "destination": "/"
     },
     {
-      "src": "/about",
-      "dest": "/"
+      "source": "/about",
+      "destination": "/"
     },
     {
-      "src": "/products",
-      "dest": "/"
+      "source": "/products",
+      "destination": "/"
     },
     {
-      "src": "/services",
-      "dest": "/"
+      "source": "/services",
+      "destination": "/"
     },
     {
-      "src": "/article",
-      "dest": "/"
+      "source": "/article",
+      "destination": "/"
     },
     {
-      "src": "/contact",
-      "dest": "/"
+      "source": "/contact",
+      "destination": "/"
     }
   ]
 }
